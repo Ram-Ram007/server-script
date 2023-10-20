@@ -41,3 +41,13 @@ app.put("/", (req, res) => {
   });
 });
 
+// DELETE
+app.delete("/", (req, res) => {
+  return res.json({
+    message: "DELETE route",
+  });
+});
+
+app.listen(config.port, () => {
+  console.log(`Server running on port ${config.port}`);
+});
