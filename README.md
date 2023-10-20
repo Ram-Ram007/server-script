@@ -1,3 +1,5 @@
-# learning about srver side scripting using node
+# common js format for imports
 
-## common js format for imports
+```
+npm i express
+```
