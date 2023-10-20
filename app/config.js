@@ -1,5 +1,3 @@
-const config = {
+export default {
   port: 3456,
 };
-
-module.exports = config;
